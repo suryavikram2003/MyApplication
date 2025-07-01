@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Accident Report System</string>
+    <string name="title_report">Report</string>
+    <string name="title_history">History</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_profile">Profile</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="report_accident">Report Accident</string>
+    <string name="view_reports">View Reports</string>
+    <string name="manage_contacts">Manage Contacts</string>
+</resources>
