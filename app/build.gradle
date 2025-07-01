@@ -44,7 +44,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel:2.7.0'
     implementation 'androidx.lifecycle:lifecycle-livedata:2.7.0'
     implementation 'androidx.room:room-runtime:2.6.1'
-    implementation libs.activity
+    implementation 'androidx.activity:activity:1.8.0'
     annotationProcessor 'androidx.room:room-compiler:2.6.1'
 
     // Location Services
