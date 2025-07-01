@@ -21,6 +21,13 @@ public class User {
     // Constructors
     public User() {}
 
+    public User(String username, String email, String phoneNumber, String password) {
+        this.username = username;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.password = password;
+    }
+
     public User(String username, String email, String password, String fullName, String phoneNumber) {
         this.username = username;
         this.email = email;
@@ -47,6 +54,10 @@ public class User {
 
     public String getPhoneNumber() { return phoneNumber; }
     public void setPhoneNumber(String phoneNumber) { this.phoneNumber = phoneNumber; }
+
+    // Convenience method for compatibility
+    public String getPhone() { return phoneNumber; }
+    public void setPhone(String phone) { this.phoneNumber = phone; }
 
     public String getBloodType() { return bloodType; }
     public void setBloodType(String bloodType) { this.bloodType = bloodType; }
